@@ -1,0 +1,10 @@
+    1  script ws3.txt
+    2  less ws3.txt
+    3  nano ws3.txt
+    4  cd ws3
+    5  history
+    6  cd
+    7  history
+    8  cd ws3
+    9  history
+   10  history > cmds.log
