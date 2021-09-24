@@ -593,7 +593,197 @@
   593  ./ws3
   594  ls ws3
   595  history
-  596  git init
-  597  git remote add origin https://github.com/pranav-chill/ws3
-  598  git pull origin master
-  599  history > cmds.log
+  596  mkdir products
+  597  mkdir customers
+  598  ls
+  599  cd
+  600  ls
+  601  ls ws1
+  602  cd a1
+  603  ls
+  604  cd ws2
+  605  cd
+  606  cd ws3
+  607  ls
+  608  mv amazon_reviews_us_Books_v1_02.tsv ws4
+  609  cd ws4
+  610  cd
+  611  cd ws4
+  612  ls
+  613  cd 
+  614  cd ws3
+  615  ls
+  616  cd
+  617  ls
+  618  cd a1
+  619  ls
+  620  cd
+  621  ls
+  622  amazon_reviews_us_Books_v1_02.ts
+  623  amazon_reviews_us_Books_v1_02.tsv
+  624  ls
+  625  cd 2s3
+  626  cd ws3 ls
+  627  cd ws3
+  628  ls
+  629  cd
+  630  cd ws4
+  631  ls
+  632  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  633  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+  634  l
+  635  egrep "	50122160	" amazon_reviews_us_Books_v1_02.tsv > customers/50122160.txt
+  636  ls -altr customers/50122160.txt
+  637  cd customers
+  638  head 50122160.txt
+  639  cut -d "	" -f 9 50122160.txt > 50122160.help.txt
+  640  ls -latr
+  641  awk '{ total += $1 } END { print total/NR } 50122160.help.txt
+  642  '
+  643  awk '{ total += $1 } END { print total/NR }' 50122160.help.txt
+  644  $total
+  645  total
+  646  awk '{ total += $1 } END { print (total * total)/NR-(total/NR)**2' 50122160.help.txt
+  647  awk '{ total += $1 } END { print (total * total)/NR-(total/NR)**2}' 50122160.help.txt 
+  648  { for(i=1;i<=NF;i++) {total[i]+=$i ; sq[i]+=$i*$i ; } } END {
+  649  { for(i=1;i<=NF;i++) {total[i]+=$i ; sq[i]+=$i*$i ; } } END { for(i=1;i<=NF;i++) printf "%f ",total[i]/NR ;
+  650  awk '{ total += $1 } END {print total = (total+(total - (total/NR)^2}' 50122160.help.txt
+  651  awk '{ total += $1 } END {print total = (total+(total - (total/NR)**2}' 50122160.help.txt
+  652  awk '{ total += $1 } END { print total = (total+(total - (total/NR)^2 } 50122160.help.txt
+  653  '
+  654  awk '{ total += $1 } END { print total = (total+(total - (total/NR)^2 }' 50122160.help.txt
+  655  cd
+  656  -r ws4
+  657  r ws4
+  658  ls
+  659  rm -r ws4
+  660  ls
+  661  mkdir ws4
+  662  cd ws4
+  663  ls
+  664  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  665  gunzip amazon_reviews_us_Books_v1_02.tsv
+  666  script ws4.txt
+  667  mkdir CUSTOMERS
+  668  mkdir PRODUCTS
+  669  ls
+  670  cd CUSTOMERS
+  671  egrep "	50122160	" amazon_reviews_us_Books_v1_02.tsv> CUSTOMERS/custid.txt
+  672  cf
+  673  cd
+  674  cd ws4
+  675  egrep "        50122160        " amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/custid.txt
+  676  ls -altr CUSTOMERS/
+  677  egrep "	50122160	" amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/customerid.txt
+  678  ls -altr CUSTOMERS/
+  679  cd CUTOMERS
+  680  cd CUSTOMERS
+  681  awk '{ total += $1 } END { print total/NR }' 50122160.help.txt
+  682  less ws4.txt
+  683  cd
+  684  ws4.txt
+  685  less ws4.txt
+  686  cd ws4
+  687  ws4.txt
+  688  less ws4.txt
+  689  ls
+  690  rm ws4.txt
+  691  rm -r CUSTOMERS
+  692  rm -R PRODUCTS
+  693  ls
+  694  cd
+  695  script ws4.txt
+  696  cd ws4
+  697  ls
+  698  mkdir CUSTOMERS
+  699  mkdir PRODUCTS
+  700  ls
+  701  egrep "  50122160        " amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/50122160.txt
+  702  head CUSTOMERS/50122160.txt
+  703  egrep "	50122160	" amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/50122160.txt
+  704  egrep "	52818300	" amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/52818300.txt
+  705  egrep "	50057481	" amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/50057481.txt
+  706  nano CUSTOMERS/52818300.txt
+  707  egrep "	0316769487	" amazon_reviews_us_Books_v1_02.tsv > PRODUCTS/0316769487.txt
+  708  nano PRODUCTS/0316769487.txt
+  709  egrep "	0375826688	" amazon_reviews_us_Books_v1_02.tsv > PRODUCTS/0375826688.txt
+  710  egrep "	0373484372	" amazon_reviews_us_Books_v1_02.tsv > PRODUCTS/0373484372.txt
+  711  cd CUSTOMERS
+  712  cut -d "	" -f 9 50122160.txt > 50122160.helpfulness.txt
+  713  cut -d "	" -f 9 52818300.txt > 52818300.helpfulness.txt
+  714  cut -d "	" -f 9 50057481.txt > 50057481.helpfulness.txt
+  715  nano 52818300.helpfulness.txt
+  716  awk '{ total += $1 } END { print total/NR }' 50122160.helpfulness.txt
+  717  awk '{ total += $1 } END { print total/NR }' 52818300.helpfulness.txt
+  718  awk '{ total += $1 } END { print total/NR }' 50057481.helpfulness.txt
+  719  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 50122160.helpfulness.txt
+  720  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 52818300.helpfulness.txt
+  721  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 50057481.helpfulness.txt
+  722  cd ws4
+  723  cd
+  724  cd ws4/PRODUCTS
+  725  cut -d "       " -f 9 0316769487.txt
+  726  cut -d "	" -f 9 0316769487.txt
+  727  cut -d "        " -f 9 0316769487.txt > 0316769487.helpfulness.txt
+  728  cut -d "	" -f 9 0316769487.txt > 0316769487.helpfulness.txt
+  729  nano 0316769487.helpfulness.txt
+  730  cut -d "	" -f 9 0375826688.txt > 0375826688.helpfulness.txt
+  731  nano 0375826688.helpfulness.txt
+  732  cut -d "	" -f 9 0373484372.txt > 0373484372.helpfulness.txt
+  733  awk '{ total += $1 } END { print total/NR }' 0316769487.helpfulness.txt
+  734  awk '{ total += $1 } END { print total/NR }' 0375826688.helpfulness.txt
+  735  awk '{ total += $1 } END { print total/NR }' 0373484372.helpfulness.txt
+  736  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 0316769487.helpfulness.txt
+  737  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 0375826688.helpfulness.txt
+  738  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 0373484372.helpfulness.txt
+  739  cd
+  740  less ws4.txt
+  741  nano ws4.txrt
+  742  nano ws4.txt
+  743  script ws4.txt
+  744  cd ws4
+  745  cd PRODUCTS
+  746  awk '{ total += $1 } END { print total/NR }' 0316769487.helpfulness.txt
+  747  awk '{ total += $1 } END { print total/NR }' 0375826688.helpfulness.txt
+  748  awk '{ total += $1 } END { print total/NR }' 0373484372.helpfulness.txt
+  749  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 0316769487.helpfulness.txt
+  750  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 0375826688.helpfulness.txt
+  751  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 0373484372.helpfulness.txt
+  752  cd
+  753  less ws4.txt
+  754  nano ws4.txt
+  755  ls
+  756  nano ws4.txtr
+  757  nano ws4.txt
+  758  rm ws4.txt
+  759  script ws4.txt
+  760  cd ws4.txt
+  761  cd ws4
+  762  cd CUSTOMERS
+  763  awk '{ total += $1 } END { print total/NR }' 52818300.helpfulness.txt
+  764  awk '{ total += $1 } END { print total/NR }' 50057481.helpfulness.txt
+  765  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 50122160.helpfulness.txt
+  766  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 52818300.helpfulness.txt
+  767  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 50057481.helpfulness.txt
+  768  cd
+  769  cd ws4/PRODUCTS
+  770  awk '{ total += $1 } END { print total/NR }' 0316769487.helpfulness.txt
+  771  3.66142
+  772  awk '{ total += $1 } END { print total/NR }' 0375826688.helpfulness.txt
+  773  awk '{ total += $1 } END { print total/NR }' 0373484372.helpfulness.txt
+  774  awk '{sum+=$1; sumsq+=$1*$1}END{print (sumsq/NR - (sum/NR)**2)}' 0316769487.helpfulness.txt
+  775  cd 
+  776  less ws4.txt
+  777  nano ws4.txt
+  778  vim ws4.txt
+  779  script ws4.txt
+  780  ls
+  781  cd ws4
+  782  ls
+  783  cd
+  784  script ws4.txt
+  785  script ws4.txt
+  786  nano ws4.txt
+  787  vim ws4.txt
+  788  nano ws4.txt
+  789  history > cmds.log
